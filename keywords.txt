@@ -11,7 +11,7 @@ ultrasonic    	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-distance       	KEYWORD2
+distanceInCm   	KEYWORD2
 
 
 
@@ -19,5 +19,5 @@ distance       	KEYWORD2
 ######################################
 # Constants (LITERAL1)
 #######################################
-on      	LITERAL1
-off     	LITERAL1
+distanceInCm    LITERAL1
+
