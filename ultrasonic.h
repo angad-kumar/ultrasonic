@@ -5,7 +5,7 @@ class ultrasonic
 {
   public:
   ultrasonic(int echo,int trig);
-  int distance();
+  int distanceInCm();
   int _echo;
   int _trig;
 };
