@@ -6,7 +6,7 @@ ultrasonic::ultrasonic(int echo,int trig)
   _trig=trig;
   _echo=echo;
 }
-int ultrasonic::distance()
+int ultrasonic::distanceInCm()
 {
   int duration,distance;
   digitalWrite(_trig,LOW);
@@ -18,3 +18,4 @@ int ultrasonic::distance()
   distance=(duration*0.034)/2;
   return distance;
 }
+
