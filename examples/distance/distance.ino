@@ -6,5 +6,5 @@ void setup()
 }
 void loop()
 {
-  Serial.println(dis.distance());
+  Serial.println(dis.distanceInCm());
 }
